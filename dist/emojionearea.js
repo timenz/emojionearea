@@ -3,7 +3,7 @@
  * https://github.com/mervick/emojionearea
  * Copyright Andrey Izman and other contributors
  * Released under the MIT license
- * Date: 2017-03-06T21:02Z
+ * Date: 2017-07-03T04:30Z
  */
 window = ( typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {} );
 document = window.document || {};
@@ -1055,8 +1055,8 @@ document = window.document || {};
             if ($.fn.textcomplete) {
                 autocomplete();
             } else {
-                $.getScript("https://cdn.rawgit.com/yuku-t/jquery-textcomplete/v1.3.4/dist/jquery.textcomplete.js",
-                    autocomplete);
+                // unused in out case, so for hard fix, me disable it for now
+                // $.getScript("https://cdn.rawgit.com/yuku-t/jquery-textcomplete/v1.3.4/dist/jquery.textcomplete.js",  autocomplete);
             }
         }
 

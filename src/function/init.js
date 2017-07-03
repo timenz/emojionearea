@@ -523,8 +523,8 @@ function($, emojione, blankImg, slice, css_class, emojioneSupportMode, invisible
             if ($.fn.textcomplete) {
                 autocomplete();
             } else {
-                $.getScript("https://cdn.rawgit.com/yuku-t/jquery-textcomplete/v1.3.4/dist/jquery.textcomplete.js",
-                    autocomplete);
+                // unused in out case, so for hard fix, me disable it for now
+                // $.getScript("https://cdn.rawgit.com/yuku-t/jquery-textcomplete/v1.3.4/dist/jquery.textcomplete.js",  autocomplete);
             }
         }
 
