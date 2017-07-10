@@ -1,6 +1,6 @@
 {
   "name": "mtg-emojionearea",
-  "version": "3.1.8",
+  "version": "3.1.10",
   "description": "WYSIWYG-like EmojiOne Converter / Picker Plugin for jQuery",
   "main": "dist/emojionearea.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mervick/emojionearea.git"
+    "url": "git+https://github.com/timenz/emojionearea.git"
   },
   "keywords": [
     "emoji",
